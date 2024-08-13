@@ -4,7 +4,12 @@ export default function Dashboard() {
         <div className="text-white font-ubuntu">
             {/* HOMEPAGE */}
             <div id="home"
-                className="bg-[url('./newbg2.png')] bg-cover bg-center h-screen flex flex-col items-center p-2 relative"
+             style={{ 
+              backgroundImage: "url('./newbg2.png')", 
+              backgroundSize: "cover", 
+              backgroundPosition: "center", 
+            }}
+                className=" bg-cover bg-center h-screen flex flex-col items-center p-2 relative"
             >
         <div className="text-center md:mt-36 mt-28 flex flex-col justify-center items-center">
             <img src="./logow.png" className="md:max-w-44 max-w-28 w-full" alt="" />

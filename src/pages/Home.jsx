@@ -4,7 +4,12 @@ export default function Home() {
     <div className="text-white font-ubuntu">
     {/* HOMEPAGE */}
     <div id="home"
-        className="bg-[url('./newbg1.png')] bg-cover bg-center h-screen flex flex-col items-center p-2 relative"
+     style={{ 
+        backgroundImage: "url('./newbg1.png')", 
+        backgroundSize: "cover", 
+        backgroundPosition: "center",  
+      }}
+        className="bg-cover bg-center h-screen flex flex-col items-center p-2 relative"
     >
     
     </div>
