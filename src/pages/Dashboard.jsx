@@ -52,7 +52,7 @@ export default function Dashboard() {
             <div id="aboutus" className="WHO WE ARE flex flex-col justify-center items-center text-black py-10 p-2">
                 <div className="flex flex-wrap mt-20 md:gap-14 items-center justify-center">
                     <div className="img">
-                        <img src="./who.png" alt="" />
+                        <img src="./picture1.png" className="max-w-3xl w-full rounded-xl" alt="" />
                     </div>
                     <div className="details">
                         <h1 className="text-xl text-[#FF863C] font-bold mt-2">WHO WE ARE</h1>
@@ -69,7 +69,7 @@ export default function Dashboard() {
 
 
                  {/* THIRD PAGE */}
-                 <div id="blog" className="WHO WE ARE flex flex-col justify-center items-center text-black py-10 p-2">
+                 <div id="blog" className="WHO WE ARE flex flex-col justify-center items-center text-black py-10 p-2 mb-10">
                 <div className="flex flex-wrap-reverse mt-20 md:gap-14 justify-center items-center">
                     <div className="details">
                         <h1 className="text-xl text-[#FF863C] font-bold mt-2">OUR VIDEOS</h1>
@@ -81,7 +81,7 @@ export default function Dashboard() {
                             </p>
                     </div>
                     <div className="img">
-                        <img src="./third.png" alt="" />
+                        <img src="./picture2.png" className="max-w-3xl w-full rounded-xl" alt="" />
                     </div>
                 </div>
             </div>
