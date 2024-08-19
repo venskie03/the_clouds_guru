@@ -85,10 +85,16 @@ npm run dev
 
 ## Project Structure
 + The website is structured with multiple pages and components:
-* src/pages/Dashboard.jsx: The main dashboard page, which includes:
+
+### Folder: src/pages/Dashboard.jsx:
+* The main dashboard page, which includes:
   * Homepage: (#homepage)
   * Second Page (#aboutus)
   * Third Page (#blog)
   * Fourth Page (#contactus)
-  * src/components/Footer.jsx: The footer component used across different pages to provide consistent footer styling and links.
-  * src/components/NavBar.jsx: The navbar component used across different pages to provide consistent footer styling and links.
+
+### Folder: src/components/Footer.jsx:  
+* The footer component used across different pages to provide consistent footer styling and links.
+
+### Folder: src/components/NavBar.jsx:
+* The navbar component used across different pages to provide consistent footer styling and links.
