@@ -28,7 +28,7 @@ select: Javascript
 + Change your directory to the newly created project:
 
 ```bash
-cd clouds_gur
+cd clouds_guru
 ```
 
 ## Installing Dependencies
@@ -82,15 +82,15 @@ export default {
 + Start the development server using the following command:
 
 ```bash
-npm run build
+npm run dev
 ```
 
 ## Project Structure
-* The website is structured with multiple pages and components:
-  * src/pages/Dashboard.jsx: The main dashboard page, which includes:
-  * Homepage: Features a background image, a large title ("The Clouds Guru") with a styled text shadow, and social media icons with links.
-  * Second Page (#aboutus): Contains an "About Us" section with an image and text describing the mission of "The Clouds Guru".
-  * Third Page (#blog): Highlights video content available on the YouTube channel of "The Clouds Guru".
-  * Fourth Page (#contactus): Provides social media icons for staying connected.
++ The website is structured with multiple pages and components:
+* src/pages/Dashboard.jsx: The main dashboard page, which includes:
+  * Homepage: (#homepage)
+  * Second Page (#aboutus)
+  * Third Page (#blog)
+  * Fourth Page (#contactus)
   * src/components/Footer.jsx: The footer component used across different pages to provide consistent footer styling and links.
   * src/components/NavBar.jsx: The navbar component used across different pages to provide consistent footer styling and links.
