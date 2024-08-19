@@ -8,8 +8,6 @@ This project is a website built using the React framework and styled with Tailwi
 - [Configuring Tailwind CSS](#configuring-tailwind-css)
 - [Running the Project](#running-the-project)
 - [Project Structure](#project-structure)
-- [Page Components](#page-components)
-- [Footer Component](#footer-component)
 
 ## Getting Started
 
