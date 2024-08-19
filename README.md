@@ -16,11 +16,13 @@ This project is a website built using the React framework and styled with Tailwi
 To create this website, we use the Vite toolchain for fast development. Follow the steps below to get started:
 
 ### 1. Initialize the Project
-First, create a new project using Vite:
-npm create @vite/latest
++ First, create a new project using Vite:
 
-website name: clouds_guru
+```bash
+npm create @vite/latest
+website_name: clouds_guru
 select: Javascript
+```
 
 ### 2. Navigate to the Project Directory
 Change your directory to the newly created project:
@@ -35,12 +37,12 @@ npm install
 
 ### 2. Install Tailwind CSS
 Tailwind CSS is used for styling the application. Install Tailwind CSS and its peer dependencies by running:
+
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 
 
 ## Configuring Tailwind CSS
-
 After installing Tailwind CSS, configure it by updating the tailwind.config.js file:
 
 ### 1. Update Tailwind Configuration
