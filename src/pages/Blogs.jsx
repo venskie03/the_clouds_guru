@@ -69,13 +69,13 @@ export default function Blogs() {
           </div>
           <div className="details p-4">
             <h1 className="text-2xl">Featured Blog</h1>
-            <h1 className="text-[#FF863C] md:mt-14 md:text-4xl text-3xl font-bold mt-2">
+            <h1 className="text-[#FF863C] md:mt-14 md:text-5xl text-3xl font-bold mt-2">
               Transforming Lives
             </h1>
-            <h1 className="text-[#FF863C]  md:text-4xl text-3xl font-bold">
+            <h1 className="text-[#FF863C]  md:text-5xl text-3xl font-bold">
               Through Education and Training
             </h1>
-            <p className="md:mt-10 mt-5 max-w-xl w-full">
+            <p className="md:mt-10 mt-5 max-w-xl w-full text-lg">
               We're committed to transforming the way people learn about cloud
               computing and cloud security by making these complex topics
               accessible to everyone, whether you're just starting out or
