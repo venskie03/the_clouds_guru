@@ -1,13 +1,11 @@
 import './App.css'
-import Navbar from './components/Navbar'
-import Dashboard from "./pages/Dashboard"
+import Routepages from './Routepages'
 function App() {
 
 
   return (
     <>
-    <Navbar/>
-    <Dashboard/>
+   <Routepages/>
     </>
   )
 }

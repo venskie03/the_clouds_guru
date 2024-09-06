@@ -36,20 +36,12 @@ export default function Navbar() {
                 </a>
                 <div className="md:flex hidden py-5 gap-24 md:pr-14 font-semibold">
                     <div className="flex gap-8 mt-2">
-                        <Link
-                            to="home"
-                            spy={true}
-                            smooth={true}
-                            offset={-100}
-                            duration={500}
-                            className=" hover:border-b-2 border-sky-600 hover:cursor-pointer">Home</Link>
-                        <Link
-                            to="blog"
-                            spy={true}
-                            smooth={true}
-                            offset={50}
-                            duration={500}
-                            className=" hover:border-b-2 border-sky-600 hover:cursor-pointer">Blog</Link>
+                        <a
+                           href="/"
+                            className=" hover:border-b-2 border-sky-600 hover:cursor-pointer">Home</a>
+                        <a
+                            href="/Blogs"
+                            className=" hover:border-b-2 border-sky-600 hover:cursor-pointer">Blog</a>
                         <Link
                             to="aboutus"
                             spy={true}
@@ -79,22 +71,12 @@ export default function Navbar() {
             <nav id="navbar" className={`fixed w-full h-full py-[120px] z-40 md:hidden p-2 bg-gray-100 text-black ${Navbar}`}>
                 <div className="grid justify-center text-center gap-5 h-full   ">
 
-                    <Link
-                        onClick={handleClickLink}
-                        to="home"
-                        spy={true}
-                        smooth={true}
-                        offset={-100}
-                        duration={500}
-                        className=" hover:border-b-2 border-sky-600 hover:cursor-pointer">Home</Link>
-                    <Link
-                        onClick={handleClickLink}
-                        to="blog"
-                        spy={true}
-                        smooth={true}
-                        offset={50}
-                        duration={500}
-                        className=" hover:border-b-2 border-sky-600 hover:cursor-pointer">Blog</Link>
+                    <a
+                       href="/"
+                        className=" hover:border-b-2 border-sky-600 hover:cursor-pointer">Home</a>
+                    <a
+                        href="/Blogs"
+                        className=" hover:border-b-2 border-sky-600 hover:cursor-pointer">Blog</a>
                     <Link
                         onClick={handleClickLink}
                         to="aboutus"

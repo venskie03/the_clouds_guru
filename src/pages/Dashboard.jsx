@@ -1,4 +1,4 @@
-import Footer from "../components/Footer";
+
 export default function Dashboard() {
     return (
         <div className="text-white font-ubuntu">
@@ -52,7 +52,7 @@ export default function Dashboard() {
             <div id="aboutus" className="WHO WE ARE flex flex-col justify-center items-center text-black py-10 p-2">
                 <div className="flex flex-wrap mt-20 md:gap-14 items-center justify-center">
                     <div className="img">
-                        <img src="./picture1.png" className="max-w-3xl w-full rounded-xl" alt="" />
+                        <img src="./who.png" className="max-w-3xl w-full rounded-xl" alt="" />
                     </div>
                     <div className="details">
                         <h1 className="text-xl text-[#FF863C] font-bold mt-2">WHO WE ARE</h1>
@@ -81,27 +81,13 @@ export default function Dashboard() {
                             </p>
                     </div>
                     <div className="img">
-                        <img src="./picture2.png" className="max-w-3xl w-full rounded-xl" alt="" />
+                        <img src="./third.png" className="max-w-3xl w-full rounded-xl" alt="" />
                     </div>
                 </div>
             </div>
             {/* END OF THIRDPAGE */}
 
-             {/* FOURTH PAGE */}
-             <div id="contactus" className="WHO WE ARE flex flex-col justify-center items-center text-center text-black py-10">
-                <h1 className="text-[#FF863C] font-bold md:text-2xl">FOLLOW US ON SOCIAL MEDIA</h1>
-                <h1 className="md:text-4xl text-xl font-bold mt-3">Stay Connected and Up-to-Date</h1>
-                <div className="flex mt-8 md:gap-10 flex-wrap justify-center">
-                    <img src="./cion1.png" alt="" />
-                    <img src="./icon2.png" alt="" />
-                    <img src="./icon3.png" alt="" />
-                    <img src="./icon4.png" alt="" />
-                    <img src="./icon5.png" alt="" />
-                </div>
-            </div>
-            {/* END OF FOURTHPAGE */}
-
-            <Footer/>
+  
 
         </div>
     );
